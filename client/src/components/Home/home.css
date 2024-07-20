@@ -1,0 +1,19 @@
+@media (max-width: 942px){
+
+  .menuHead h1{
+    font-size: 30px;
+  }
+
+  .homebuttons{
+    width: 50%;
+  }
+
+  .homeslide{
+    display: none;
+  }
+
+  .slideimg{
+    display: none;
+  }
+}
+

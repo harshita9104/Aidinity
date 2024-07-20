@@ -1,0 +1,46 @@
+@media (min-width: 942px) {
+  .micon path {
+    display: none;
+  }
+  .micon {
+    display: none !important;
+  }
+
+  .navlogo {
+    height: 7vh;
+  }
+}
+@media (max-width: 942px) {
+  .navlinks {
+    display: none !important;
+  }
+  .navlogo {
+    height: 5vh;
+  }
+}
+
+.slide-left {
+  animation: 0.3s slide-left;
+}
+.slide-right {
+  animation: 0.3s slide-right;
+  animation-fill-mode: forwards;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(30vh);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(-30vh);
+  }
+
+  100% {
+    transform: translateX(0vh);
+  }
+}
